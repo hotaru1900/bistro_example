@@ -1,0 +1,443 @@
+body
+{
+    background-color: #61122f;
+    font-size: 'Oxygen', sans-serif;
+}
+
+#header-nav
+{
+    background-color: #f6b319;
+}
+
+
+#name-logo /* main name of the page*/
+{
+    color: brown;
+    text-shadow: 2px 2px 1px black;
+    font-size: 4vw;
+}
+
+#name-certified /* name certified span*/
+{
+    color: black;
+    font-size: 2vw;
+}
+
+#menu1:hover, #menu2:hover, #menu3:hover
+{
+    background-color: white;
+
+    border-radius: 15px;
+} 
+
+.img-external
+{
+    width: 5vw;
+}
+
+
+
+.text-link  /*Text of the links*/
+{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#phone /* phone information*/
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: crimson;
+    margin-top: 0 !important;
+    text-align: center; 
+}
+#phoneS /* phone information*/
+{
+    font-weight: bolder;
+    color: black;
+    font-size: 15px;
+}
+
+ul.nav > li a:hover
+{
+    background-color: red;
+}
+
+main
+{
+    margin-top: 2vw;
+}
+
+.jumbotron
+{
+    margin-top: 2vw;
+    padding: 2vw;
+    background-color: rgba(227, 210, 155, 0.4);
+}
+
+
+.img-central /*images in jumbotron*/
+{
+    border-radius: 1vw;
+    box-shadow: -6px 0px 22px 2px #000000;
+}
+
+.call-bar
+{
+    background-color: #f6b319;
+    font-size: 20px;
+    border: white 2px solid;
+    border-radius: 3px;
+    width: 80%;
+    color: crimson;;
+}
+
+/* Section of the menus, especials and the map */
+#menu-title, #special-title, #map-title
+{
+    height: 220px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3f0c1f;
+    overflow: hidden;
+}
+#menu-title:hover, #special-title:hover, #map-title:hover
+{
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-title span, #special-title span, #map-title span
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: 0.8;
+}
+
+/* Last section Footer */
+.panel-footer
+{
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+    color: white;
+}
+
+/* .panel-footer div.row
+{
+    margin-bottom: 35px;
+} */
+
+#hours > span, #address > span, #testimonial > span
+{
+    font-size: 1.3em;
+    margin-top: 2em;
+}
+
+#address p 
+{
+    color: #557c3e;
+    font-size: .8em;
+    line-height: 1.8;
+}
+
+#testimonial
+{
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+/* CREATING STYLES FOR MENU CATEGORIES PAGE */
+.category-title
+{
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+    width: 200px;
+    height: 180px;
+    margin: 0 auto 15px;
+}
+.category-title span
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: 0.8;
+}
+.category-title:hover
+{
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-categories-title + div
+{
+    margin-bottom: 50px;
+}
+.img-categories
+{
+    width: 200px;
+    height: 150px;
+}
+/* --------------END MENU CATEGORIES------------------ */
+
+/* CREATING STYLES FOR SINGLE CATEGORIES PAGE */
+.menu-item-title
+{
+    margin-bottom: 25px;
+}
+
+.menu-item-title hr
+{
+    width: 80%;
+    background-color: #cccccc;
+}
+
+.menu-item-title .menu-item-price
+{
+    font-size: 1.1em;
+    text-align: right;
+    margin-top: -15px;
+    margin-right: -15px;
+}
+
+.menu-item-title .menu-item-price span
+{
+    font-size: 0.6em;
+}
+.menu-item-photo
+{
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+    padding: 0;
+    margin-right: -15px;
+    margin-left: auto;
+    margin-bottom: 20px;
+    max-width: 250px;
+}
+.menu-item-photo div
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 80px;
+    background-color: #557c3e;
+    text-align: center;
+}
+
+.menu-item-description
+{
+    padding-right: 30px;
+}
+
+h3.menu-item-title
+{
+    margin: 0 0 10px;
+}
+
+.menu-item-details
+{
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+
+
+
+
+/* -----------------Large device only -------------- */
+@media (min-width: 1200px)
+{
+    #logo-img /* main logo*/
+    {
+        width: 200px;
+        height: 150px;
+        border-radius: 0.5em;
+        margin: 5px 50px 5px 50px;
+    }
+
+    #min-logo  /* certified logo*/
+    {
+        width: 50px;
+        width: 50px;
+        border-radius: 5em;
+    }
+
+}
+
+
+
+
+/* -----------------Medium device only -------------- */
+
+@media (min-width: 992px) and (max-width:1199px)
+{
+    #logo-img /* main logo*/
+    {
+        width: 180px;
+        height: 130px;
+        border-radius: 0.5em;
+        margin: 5px 25px 5px 20px;
+    }
+
+    #min-logo  /* certified logo*/
+    {
+        width: 30px;
+        width: 30px;
+        border-radius: 5em;
+    }
+     
+    #phone /* phone information*/
+    {
+        font-size: 25px;
+        font-weight: bold;
+        color: crimson;
+
+        text-align: center; 
+    }
+    #phoneS /* phone information*/
+    {
+        font-weight: bolder;
+        color: black;
+        font-size: 15px;
+    }
+    .text-link  /*Text of the links*/
+    {
+        font-size: 1.5vw;
+    }
+
+   
+    
+}
+
+/* -----------------Small device only -------------- */
+
+@media (min-width: 768px) and (max-width:991px)
+{
+    #logo-img /* main logo*/
+    {
+        width: 100px;
+        height: 80px;
+        border-radius: 0.5em;
+        margin: 5px 50px 5px 50px;
+    }
+
+    #min-logo  /* certified logo*/
+    {
+        width: 10px;
+        width: 10px;
+        border-radius: 5em;
+    }
+    
+    .text-link  /*Text of the links*/
+    {
+        font-size: 1vw;
+    }
+
+     /* FOR SINGLE CATEGORIES */
+
+     .menu-item-photo
+     {
+         margin-right: auto;
+     }
+     .menu-item-title .menu-item-price
+    {
+        text-align: center;
+    }
+    .menu-item-description
+    {
+        text-align: justify;
+    }
+    
+}
+
+/* -----------------Extra Small device only -------------- */
+@media (max-width: 767px)
+{
+  
+    #min-logo  /* certified logo*/
+    {
+        width: 25px;
+        width: 25px;
+        border-radius: 5em;
+    }
+
+    #name-logo /* main name of the page*/
+    {
+        text-shadow: 1px 1px 1px black;
+        font-size: 10vw;
+    }
+
+    #name-certified /* name certified span*/
+    {
+     font-size: 5vw;
+    }
+    #phone /* phone information*/
+    {
+        font-size: 25px;
+        font-weight: bold;
+        color: crimson;
+        text-align: center; 
+    }
+
+    #menu-title span, #special-title span, #map-title span
+    {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 300px;
+        text-align: center;
+        font-size: 1.6em;
+        text-transform: uppercase;
+        background-color: #000;
+        color: #fff;
+        opacity: 0.8;
+    }
+    
+    #menu-title, #special-title, #map-title
+    {
+        height: 220px;
+        width: 300px;
+        margin-bottom: 15px;
+        position: relative;
+        border: 2px solid #3f0c1f;
+        overflow: hidden;
+        margin: 0 auto 15px;
+    }
+
+    .panel-footer
+    {
+        text-align: center;
+    }
+
+     /* FOR SINGLE CATEGORIES */
+
+     .menu-item-photo
+     {
+         margin-right: auto;
+     }
+     .menu-item-title .menu-item-price
+    {
+        text-align: center;
+    }
+    .menu-item-description
+    {
+        text-align: center;
+    }
+    
+
+}
