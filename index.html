@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japapese Bistro</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Navegation bar -->
+    <header>
+        <nav id="header-nav" class="navbar navbar-expand-lg  navbar-expand-lx navbar-light ">
+            <img src="img/logo.png" alt="logo" id="logo-img" class="d-none d-md-block d-none d-lg-block">
+            <a href="#" class="navbar-brand text-center" >
+                <h1 id="name-logo">Sushi-Love</h1>
+                <p>
+                    <img src="img/img2.png" alt="certified" id="min-logo">
+                    <span id="name-certified">Certified Cocine</span>
+                </p>
+            </a>
+            <button id="navbarToggle" class="navbar-toggler btn btn-lg bg-light" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon btn-lg"></span>
+            </button>
+              <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav  ml-auto">
+                    <li id="menu1" class="nav-item active px-2 text-center">
+                        <a class="nav-link text-link" href="#">
+                            <img class="img-external" src="https://img.icons8.com/ios-glyphs/60/000000/asian-street-food.png"/>
+                            Home<span class="sr-only">(current)</span></a>
+                      </li>
+                  <li id="menu1" class="nav-item px-2 text-center">
+                    <a class="nav-link text-link" href="menu-categories.html">
+                        <img class="img-external" src="https://img.icons8.com/ios-glyphs/60/000000/chinese-noodle.png"/>
+                        Menu <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li id="menu2" class="nav-item px-2 text-center">
+                    <a class="nav-link text-link" href="#">
+                        <img class="img-external" src="https://img.icons8.com/ios-glyphs/60/000000/food.png"/>
+                        About</a>
+                  </li>
+                  <li id="menu3" class="nav-item px-2 text-center">
+                    <a class="nav-link text-link" href="#">
+                        <img class="img-external" src="https://img.icons8.com/ios-glyphs/60/000000/mollusk.png"/>
+                        Awards</a>
+                  </li>
+                  <li class="nav-item px-4 mt-0">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 text-center">
+                            <a class="nav-link" href="tel:410-622-5008">
+                                <span id="phoneS">*We Deliver</span>
+                                <p id="phone">410-622-5008  </p>
+                                
+                            </a>
+                        </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+        </nav>
+    </header>
+
+<!-- Main Content of Sushi -->
+    <main>
+<!-- Information of the center for mobile device -->
+        <div class="row m-auto call-bar d-block d-sm-none d-none d-sm-block d-md-none">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <a class=" nav-link" href="tel:410-622-5008">
+                        <p id="phone"><img src="https://img.icons8.com/metro/26/000000/phone.png"/> 410-622-5008</p>    
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 d-block d-sm-none d-none d-sm-block d-md-none text-center">
+            <span class="text-white">*WE DELIVER</span>
+        </div>
+
+<!-- Jumbotron pictures of our restaurant -->
+        <div id="main-content" class="container">
+            <div class="jumbotron shadow-lg p-3 mb-5 rounded">
+                <div class="row text-center">
+                 <div class="col-12 col-md-12 col-lg-12 table-responsive">
+                     <div id="carouselSushi" class="carousel slide " data-ride="carousel">
+                         <div class="carousel-inner ">
+                           <div class="carousel-item active">
+                             <img class="img-fluid img-central" src="img/food1.png" alt="First slide">
+                           </div>
+                           <div class="carousel-item">
+                             <img class="img-fluid img-central" src="img/food2.png" alt="Second slide">
+                           </div>
+                           <div class="carousel-item">
+                             <img class="img-fluid img-central" src="img/food3.png" alt="Third slide">
+                           </div>
+                         </div>
+                       </div>
+                 </div>
+                </div>
+              </div>
+            
+
+<!-- Section of the menus, especials and the map -->
+                <div id="home-tittles" class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <a  href="menu-categories.html">
+                            <div id="menu-title">
+                                <span>
+                                    <img class="img-fluid" src="img/food4.png" alt="Japapese">
+                                    menu
+                                </span>
+                            </div></a>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <a  href="single-caterogies.html">
+                            <div id="special-title">
+                                <span>
+                                    <img class="img-fluid" src="img/food5.png" alt="Japapese">
+                                    specials
+                                </span>
+                            </div></a>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4">
+                        <a href="https://goo.gl/maps/VmbAm4gC3fBJjD4S8" target="_black"></a>
+                        <div id="map-title">
+                            <span>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d414892.3115874437!2d139.46066356587278!3d35.66847701980969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b857628235d%3A0xcdd8aef709a2b520!2zVG9reW8sIFRva2lvLCBKYXDDs24!5e0!3m2!1ses-419!2shn!4v1590211030782!5m2!1ses-419!2shn"
+                                 width="100%" height="250px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                                map
+                            </span>
+                        </div>
+                    </div>
+                </div>
+         </div>
+    </main>
+    
+<!-- Footer and final part -->
+    <footer class="panel-footer">
+        <div class="container-fluid">
+            <div class="row">
+                <section id="hours" class="col-12 col-md-4">
+                    <span>Hours:</span><br>
+                    Sun-Turs: 11:15am - 22:00pm <br>
+                    Fri: 11:15am - 23:00pm <br>
+                    Saturday Closed
+                    <hr class=""> 
+                </section>
+                <section id="address" class="col-12 col-md-4">
+                    <span>Address:</span><br>
+                    Tokio, Japan <br>
+                    For Delivery:
+                    <p>The cost for this services is: $50 plus $5 charge
+                        for all deliveries.
+                    </p>
+                    <hr class=""> 
+                </section>
+                <section id="testimonial" class="col-12 col-md-4">
+                    <span>Testimonial:</span><br>
+                    <p>
+                        The best place to taste japanese dishes, the Restaurant it's amaizing.
+                        The enviroment is the same to the traditional culture!.
+                    </p>
+                    <p>
+                        Amaizing food! Great Service! Could't ask for more.
+                        I'll be back again!
+                    </p>
+                </section>
+                <div class="text-center col-md-12">
+                    &copy; Copyright Sushi Love, My favorite lovely roll 2020
+                </div>
+            </div>
+        </div>
+    </footer>
+
+ 
+
+
+
+    
+    
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+     crossorigin="anonymous"></script>
+    <script src="data.js"></script>
+    
+    
+</body>
+</html>
